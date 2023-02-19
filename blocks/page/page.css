@@ -1,11 +1,14 @@
 .page {
-  min-width: 320px;
-
-  max-width: 768px;
+  max-width: 320px;
+  height: 9626px;
+  /*max-width: 768px;*/
   /* here we've set a maximum page width */
   margin: 0 auto;
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: "Inter", Arial, sans-serif;
+  position: relative;
+
+  background: #2a2c2f;
 }
 
 html {
