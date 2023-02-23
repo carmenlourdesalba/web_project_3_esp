@@ -2,6 +2,6 @@
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr;
-  justify-items: center;
+
   margin: 12px auto 0px;
 }

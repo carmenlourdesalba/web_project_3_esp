@@ -35,7 +35,10 @@
 @import url(blocks/place/place.css);
 @import url(blocks/place/__artist/place__artist.css);
 @import url(blocks/place/__image/place__image.css);
-@import url(blocks/place/__paragraph/place__paragrapch.css);
+@import url(blocks/place/__paragraph/place__paragraph_capital.css);
+@import url(blocks/place/__paragraph/place_paragraph-city.css);
+@import url(blocks/place/__paragraph/place__paragraph_button.css);
 @import url(blocks/place/__title/place__title.css);
 @import url(blocks/place/__url-heading/place__url-heading.css);
 @import url(blocks/place/__website/place__website.css);
+@import url(blocks/place/__rectangule/place__rectangule.css);

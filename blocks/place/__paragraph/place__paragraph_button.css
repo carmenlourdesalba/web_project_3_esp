@@ -1,0 +1,11 @@
+.place__paragraph_button {
+  width: 245px;
+  height: 17px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  align-items: center;
+  text-align: center;
+}

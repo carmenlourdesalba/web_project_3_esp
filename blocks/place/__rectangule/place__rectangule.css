@@ -1,0 +1,7 @@
+.place__rectangule {
+  width: 288px;
+  height: 48px;
+  background: #0278fe;
+  border-radius: 4px;
+  margin: 8px 16px 8px;
+}
