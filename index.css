@@ -43,3 +43,8 @@
 @import url(blocks/place/__url-heading/place__url-heading.css);
 @import url(blocks/place/__website/place__website.css);
 @import url(blocks/place/__rectangule/place__rectangule.css);
+
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/Inter-Regular.otf") format("truetype");
+}
