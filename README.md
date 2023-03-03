@@ -10,7 +10,7 @@ En este proyecto se muestran las ciudades natales de algunos de los empleados de
 - [Git] (https://git-scm.com/doc)
 - [CSS3] (https://git-scm.com/doc)
 - [HTML] (https://www.w3schools.com/html/default.asp)
-- [BEM] (https://css-tricks.com/bem-101/#:~:text=The%20Block%2C%20Element%2C%20Modifier%20methodology%20%28commonly%20referred%20to,the%20HTML%20and%20CSS%20in%20a%20given%20project.)
+- [BEM] (https://en.bem.info/methodology/)
 - [OptimizadorImagenes] (https://tinypng.com/)
 
 **Repositorio GitHub**

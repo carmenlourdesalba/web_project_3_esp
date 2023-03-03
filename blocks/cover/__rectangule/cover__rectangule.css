@@ -8,4 +8,9 @@
   background: #0278fe;
   border-radius: 4px;
   margin: 165px auto;
+  transition: opacity 0.3s ease-in-out 0.1s;
+}
+
+.cover__rectangule:hover {
+  opacity: 0.8;
 }

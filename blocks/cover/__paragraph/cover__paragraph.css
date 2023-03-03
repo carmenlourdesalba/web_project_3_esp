@@ -6,4 +6,9 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
+  transition: opacity 0.3s ease-in-out 0.1s;
+}
+
+.cover__paragraph:hover {
+  opacity: 0.6;
 }

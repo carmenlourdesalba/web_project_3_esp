@@ -7,4 +7,11 @@
   font-size: 32px;
   line-height: 35px;
   margin: 46px 16px 0px;
+
+  text-decoration: none;
+  transition: opacity 0.2s ease-in-out 0.2s;
+}
+
+.cover__title:hover {
+  opacity: 0.5;
 }

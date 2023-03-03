@@ -1,4 +1,10 @@
 .cover__overlay {
   background: #2a2c2f;
-  opacity: 0.6;
+  opacity: 0.7;
+  text-decoration: none;
+  transition: opacity 0.2s ease-in-out 0.2s;
+}
+
+.cover__overlay:hover {
+  opacity: 0.3;
 }

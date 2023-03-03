@@ -5,7 +5,28 @@
   font-family: "Inter", Arial, sans-serif;
   background: #2a2c2f;
 }
+/* additional styles for screens with a width of 320px or less */
 
 html {
   overflow-x: hidden;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* styles for screens with a width between 768px and 1023px */
+
+  .page {
+    max-width: 768px;
+  }
+
+  /* additional styles for screens with a width between 768px and 1023px */
+}
+
+@media screen and (min-width: 1024px) {
+  /* styles for screens with a width greater than or equal to 1024px */
+
+  .page {
+    max-width: 1024px;
+  }
+
+  /* additional styles for screens with a width greater than or equal to 1024px */
 }

@@ -6,6 +6,13 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
-  margin: 100px 20px 0px;
-  /* or 114% */
+  margin: 100px;
+  text-align: center;
+  position: absolute;
+  text-decoration: none;
+  transition: opacity 0.2s ease-in-out 0.2s;
+}
+
+.cover__subtitle:hover {
+  opacity: 0.5;
 }

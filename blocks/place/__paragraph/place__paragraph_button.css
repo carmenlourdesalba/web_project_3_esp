@@ -8,4 +8,10 @@
   /* identical to box height */
   align-items: center;
   text-align: center;
+  margin: auto;
+  transition: opacity 0.3s ease-in-out 0.1s;
+}
+
+.place__paragraph_button:hover {
+  opacity: 0.6;
 }
