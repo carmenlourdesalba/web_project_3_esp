@@ -1,9 +1,24 @@
 .lead__image {
-  max-width: 320px;
   height: 200px;
 
   margin-top: 40px;
-  margin-left: 0px;
+
   background-color: #000000;
   mix-blend-mode: luminosity;
+}
+
+@media screen and (min-width: 768px) {
+  /* styles for screens with a width between 768px and 1023px */
+
+  .lead__image {
+    width: 768px;
+    height: 480px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__image {
+    width: 984px;
+    height: 615px;
+  }
 }

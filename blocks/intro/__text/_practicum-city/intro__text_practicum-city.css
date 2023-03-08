@@ -1,9 +1,26 @@
 .intro__text_practicum-city {
   width: 288px;
   height: 442px;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  /* styles for screens with a width between 768px and 1023px */
+  .intro__text_practicum-city {
+    width: 720px;
+    height: 182px;
+
+    line-height: 163%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro__text_practicum-city {
+    width: 720px;
+    height: 182px;
+    line-height: 163%;
+  }
 }

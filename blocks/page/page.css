@@ -1,5 +1,4 @@
 .page {
-  max-width: 320px;
   margin: 0 auto;
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: "Inter", Arial, sans-serif;
@@ -11,21 +10,19 @@ html {
   overflow-x: hidden;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) {
   /* styles for screens with a width between 768px and 1023px */
 
   .page {
-    max-width: 768px;
+    min-width: 768px;
   }
-
-  /* additional styles for screens with a width between 768px and 1023px */
 }
 
 @media screen and (min-width: 1024px) {
   /* styles for screens with a width greater than or equal to 1024px */
 
   .page {
-    max-width: 1024px;
+    min-width: 1024px;
   }
 
   /* additional styles for screens with a width greater than or equal to 1024px */

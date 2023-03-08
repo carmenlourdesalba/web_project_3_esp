@@ -7,3 +7,19 @@
   height: 88px;
   margin: 50px auto 0px;
 }
+
+@media screen and (min-width: 768px) {
+  .lead__title {
+    font-size: 96px;
+    line-height: 100px;
+    width: 720px;
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__title {
+    width: 793px;
+    height: 200px;
+  }
+}
