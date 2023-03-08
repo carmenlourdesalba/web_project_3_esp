@@ -6,3 +6,17 @@
   text-align: center;
   text-decoration: none;
 }
+
+/* @media screen and (min-width: 768px) {
+  .cover {
+    width: 768px;
+    height: 746px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover {
+    width: 1184px;
+    height: 740px;
+  }
+} */
