@@ -1,5 +1,6 @@
 .page {
-  margin: 0 auto;
+  min-width: 320px;
+  margin: auto 0;
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: "Inter", Arial, sans-serif;
   background: #2a2c2f;

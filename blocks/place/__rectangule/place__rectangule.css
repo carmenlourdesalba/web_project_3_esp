@@ -10,3 +10,20 @@
 .place__rectangule:hover {
   opacity: 0.8;
 }
+
+@media screen and (min-width: 768px) {
+  /* styles for screens with a width between 768px and 1023px */
+
+  .place__rectangule {
+    width: 355px;
+    height: 48px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* styles for screens with a width greater than or equal to 1024px */
+  .place__rectangule {
+    width: 315px;
+    height: 22px;
+  }
+}
