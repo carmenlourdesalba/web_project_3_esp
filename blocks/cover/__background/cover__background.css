@@ -2,3 +2,17 @@
   width: 321.26px;
   height: 254px;
 }
+
+@media screen and (min-width: 768px) {
+  .cover {
+    width: 768px;
+    height: 746px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover {
+    width: 1184px;
+    height: 740px;
+  }
+}

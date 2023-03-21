@@ -1,8 +1,7 @@
 .place {
   color: #ffffff;
-
+  margin: 12px auto 0px;
   text-decoration: none;
-  margin: auto 20%;
 }
 
 @media screen and (min-width: 768px) {
@@ -11,14 +10,6 @@
   .place {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto 340px auto;
-    grid-template-areas:
-      "header header"
-      "img text"
-      "button text";
-    grid-gap: 28px;
-
-    height: 634px;
   }
 }
 
@@ -27,13 +18,6 @@
   .place {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto 340px auto;
-    grid-template-areas:
-      "header header"
-      "img text"
-      "button text";
-    grid-gap: 28px;
-    margin: auto;
-    height: 725px;
+    margin: 148px;
   }
 }

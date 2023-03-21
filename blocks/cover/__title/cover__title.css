@@ -6,7 +6,7 @@
   font-weight: 900;
   font-size: 32px;
   line-height: 35px;
-  margin: 46px 16px 0px;
+  margin: 70px 16px;
 
   text-decoration: none;
   transition: opacity 0.2s ease-in-out 0.2s;
@@ -14,4 +14,24 @@
 
 .cover__title:hover {
   opacity: 0.5;
+}
+
+@media screen and (min-width: 768px) {
+  .cover__title {
+    margin: 243px 264px;
+    width: 656px;
+    height: 76px;
+    font-size: 72px;
+    line-height: 76px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover__title {
+    margin: 243px 270px;
+    width: 656px;
+    height: 76px;
+    font-size: 72px;
+    line-height: 76px;
+  }
 }

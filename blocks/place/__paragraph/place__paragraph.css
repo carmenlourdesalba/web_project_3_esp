@@ -15,9 +15,8 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
   /* styles for screens with a width greater than or equal to 1024px */
-  .place__paragraph {
+/* .place__paragraph {
     width: 484px;
-  }
-}
+  } }*/

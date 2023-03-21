@@ -1,18 +1,19 @@
 .places {
-  
-margin-left: 60px AUTO 0PX;
+  margin-left: 28%;
+  text-decoration: none;
+}
 
 @media screen and (min-width: 768px) {
   /* styles for screens with a width between 768px and 1023px */
 
   .places {
-    margin: auto;
+    margin-left: 12%;
   }
 }
 
 @media screen and (min-width: 1024px) {
   /* styles for screens with a width greater than or equal to 1024px */
   .places {
-    margin: auto;
+    margin-left: 16%;
   }
 }

@@ -1,12 +1,12 @@
 .cover_paragraph {
-  position: absolute;
   width: 158px;
-  height: 22px;
+
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
   transition: opacity 0.3s ease-in-out 0.1s;
+  color: white;
 }
 
 .cover__paragraph:hover {
